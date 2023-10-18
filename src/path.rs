@@ -44,9 +44,9 @@ pub enum PathVerb {
 /// [`clear`]: struct.Path.html#method.clear
 #[derive(Clone, PartialEq)]
 pub struct Path {
-    pub(crate) verbs: Vec<PathVerb>,
-    pub(crate) points: Vec<Point>,
-    pub(crate) bounds: Rect,
+    pub verbs: Vec<PathVerb>,
+    pub points: Vec<Point>,
+    pub bounds: Rect,
 }
 
 impl Path {
